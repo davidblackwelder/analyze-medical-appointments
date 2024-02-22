@@ -66,10 +66,55 @@
   <!-- ==== Main Section ==== -->
   <main class="flex-shrink-0">
     <div class="container">
-      <div class="iframeframe">
-        <iframe src="https://appointments-jl.netlify.app/notebooks/index.html?path=Investigate_a_Dataset.ipynb"
-          width="100%">
-        </iframe>
+      <div class="row row-cols-1 row-cols-lg-2">
+        <div class="col-lg-4 border-end border-2">
+          <h1><span class="logoFont">Appointments</span>: A Data Analysis Project</h1>
+
+          <h2 class="mt-5 border-bottom border-2">Project Overview</h2>
+          <p>
+            This project used a Kaggle dataset with information from 100K medical appointments in Brazil that focused on
+            whether the patient showed up for their appointment or were a no-show for their appointment. All of my
+            analysis is saved in a Jupyter Notebook and has been exported as a HTML file for easier viewing.
+          </p>
+
+          <h3 class="mt-5 border-bottom border-2">Skills</h3>
+          <ul class="fa-ul pt-2 checklist">
+            <li>
+              <span class="fa-li"><i class="fas fa-check-square"></i></span>Data Gathering
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check-square"></i></span>Data Assessing
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check-square"></i></span>Data Cleaning
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check-square"></i></span>Exploratory Data Analysis
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check-square"></i></span>Data visualizations with Matplotlib and
+              Seaborn
+            </li>
+          </ul>
+
+          <h3 class="mt-5 border-bottom border-2">Insights</h3>
+          <p>From the analysis made we can see that females have the highest percentage of appointments and men show up
+            to their appointments at a higher percentage of their appointments than women.</p>
+          <p>Tuesday and Wednesday account for 47.60% of all appointments. There are no appointments on Sunday. Thursday
+            and Saturday have the highest percentage of appointments made. Monday and Wednesday have the highest
+            percentage of appointments missed.</p>
+          <p>Appointments for younger patients have a higher percentage of missed appointments than those of the older
+            patients, excluding patients 100+ years old. Patients 100 years old or older miss 60% of their appointments.
+          </p>
+        </div>
+        <div class="col-lg-8 col">
+          <h2 class="mt-5 mt-md-0 border-bottom border-2">Jupyter Notebook</h2>
+          <div class="iframeframe mt-3">
+            <iframe src="https://appointments-jl.netlify.app/notebooks/index.html?path=Investigate_a_Dataset.ipynb"
+              width="100%">
+            </iframe>
+          </div>
+        </div>
       </div>
     </div>
   </main>
